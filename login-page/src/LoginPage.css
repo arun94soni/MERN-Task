@@ -1,0 +1,59 @@
+/* src/LoginPage.css */
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-image: url('background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    gap: 20px;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* padding: 10px; */
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    gap:10px;
+  }
+  
+  .logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    padding: 10px;
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .sign-in-btn {
+    padding: 10px;
+    background-color: #2c3e50;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #34495e;
+  }
+  
